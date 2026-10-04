@@ -1,0 +1,31 @@
+# Secrets and local config
+.env
+.env.*
+!.env.example
+
+# Personal data: databases and chat exports
+*.db
+*.sqlite
+*.sqlite3
+backend/data/
+chats/
+WhatsApp Chat*.txt
+*chat_export*
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
